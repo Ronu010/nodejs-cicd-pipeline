@@ -1,9 +1,10 @@
 {
   "name": "r15",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +12,8 @@
   "description": "",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }

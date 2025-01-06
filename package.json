@@ -1,9 +1,18 @@
 {
+<<<<<<< HEAD
   "name": "nodejs-cicd-pipeline",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+  "name": "r15",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+>>>>>>> df2b0af4b72614df9e60680d7ef0ca5c87dc9192
   },
   "keywords": [],
   "author": "",
@@ -11,5 +20,11 @@
   "description": "",
   "devDependencies": {
     "jest": "^29.7.0"
+<<<<<<< HEAD
+=======
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+>>>>>>> df2b0af4b72614df9e60680d7ef0ca5c87dc9192
   }
 }

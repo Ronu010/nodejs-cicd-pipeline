@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: <your-dockerhub-username>/nodejs-app:latest
+       image: ronu010/nodejs-cicd-app:latest
         ports:
         - containerPort: 3000
